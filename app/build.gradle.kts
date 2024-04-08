@@ -42,9 +42,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(files("C:\\Users\\junyj\\AndroidStudioProjects\\TmapSDKTest\\app\\libs\\tmap-sdk-1.2.aar"))
-    implementation(files("C:\\Users\\junyj\\AndroidStudioProjects\\TmapSDKTest\\app\\libs\\vsm-tmap-sdk-v2-android-1.6.60.aar"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(files("libs/tmap-sdk-1.2.aar"))
+    implementation(files("libs/vsm-tmap-sdk-v2-android-1.6.60.aar"))
 }
